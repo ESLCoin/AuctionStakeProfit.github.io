@@ -82,7 +82,7 @@
         r.a
     },
     "2ac8": function(e, t, a) {
-        e.exports = a.p + "img/DefiStakingPlatform_logo_transparent_very-small-v3.8817bd7e.png"
+        e.exports = a.p + "img/mni.png"
     },
     4678: function(e, t, a) {
         var n = {
@@ -428,10 +428,6 @@
                     }
                 }, [e._v("Referral")])], 1), n("li", [n("a", {
                     attrs: {
-                        href: "t.me/AuctionStakeProfit"
-                    }
-                }, [e._v("Telegram")])]), n("li", [n("a", {
-                    attrs: {
                         href: "https://tronscan.org/#/contract/TUCjCMAwbpmeACMBkedFh9N5u3fUmpCrQ7"
                     }
                 }, [e._v("Contract")])]), n("countdown", {
@@ -491,11 +487,7 @@
                     attrs: {
                         to: "/auction"
                     }
-                }, [n("v-list-item", [e._v("Auction")])], 1), n("li", [n("a", {
-                    attrs: {
-                        href: "t.me/AuctionStakeProfit"
-                    }
-                }, [e._v("Telegram")])]), n("router-link", {
+                }, [n("v-list-item", [e._v("Auction")])], 1), n("router-link", {
                     attrs: {
                         to: "/referral"
                     }
@@ -542,11 +534,7 @@
                     attrs: {
                         to: "/auction"
                     }
-                }, [e._v("Auction")])], 1), n("li", [n("a", {
-                    attrs: {
-                        href: "t.me/AuctionStakeProfit"
-                    }
-                }, [e._v("Telegram")])]), n("li", [n("router-link", {
+                }, [e._v("Auction")])], 1), n("li", [n("router-link", {
                     attrs: {
                         to: "/referral"
                     }
@@ -991,7 +979,7 @@
                         src: a("6b84"),
                         alt: "AuctionStakeProfit Logo"
                     }
-                }), n("h1", [e._v("Join our "), n("span", [e._v("Community")])]), n("p", [e._v("Learn more about the project, interact with the team, and take a part in shaping the future of ASP.")]), n("div", {
+                }), n("h1", [e._v("Join our "), n("span", [e._v("Community")])]), n("p", [e._v("Learn more about the project, interact with the team, and take a part in shaping the future of NUI.")]), n("div", {
                     staticClass: "row"
                 }, [n("div", {
                     staticClass: "col-md-6",
@@ -2322,7 +2310,7 @@
                         transition: "fade-transition"
                     }
                 }, [a("v-toolbar", {
-                    staticClass: "ASP-titlebar mt-5 pl-0 pr-0",
+                    staticClass: "NUI-titlebar mt-5 pl-0 pr-0",
                     attrs: {
                         fixed: ""
                     }
@@ -2540,7 +2528,7 @@
                             text: "AuctionStakeProfit Pool",
                             value: "amount"
                         }, {
-                            text: "ASP/TRON",
+                            text: "NUI/TRON",
                             value: "ratio"
                         }, {
                             text: "State",
@@ -3158,7 +3146,7 @@
                             text: "AuctionStakeProfit Pool",
                             value: "amount"
                         }, {
-                            text: "ASP/TRON",
+                            text: "NUI/TRON",
                             value: "ratio"
                         }, {
                             text: "State",
@@ -3406,7 +3394,7 @@
                 data: function() {
                     return {
                         address: "",
-                        referral: "https://AuctionStakeProfit.github.io/ui/?ref=".concat(this.address)
+                        referral: "https://AuctionStakeProfit .github.io/ui/?ref=".concat(this.address)
                     }
                 },
                 mounted: function() {
@@ -3438,7 +3426,7 @@
                                             }
                                             return t.abrupt("return", a(!1));
                                         case 3:
-                                            e.address = n, e.referral = "https://AuctionStakeProfit.github.io/ui/?ref=".concat(e.address);
+                                            e.address = n, e.referral = "https://AuctionStakeProfit .github.io/ui/?ref=".concat(e.address);
                                             try {
                                                 setInterval((function() {
                                                     window.tronWeb && e.address !== window.tronWeb.defaultAddress.base58 && location.reload()
@@ -3521,7 +3509,7 @@
         }).$mount("#app")
     },
     "6b84": function(e, t, a) {
-        e.exports = a.p + "img/DefiStakingPlatform_logo_transparent-v3.5fd020eb.png"
+        e.exports = a.p + "img/mni.png"
     },
     "85ec": function(e, t, a) {}
 });
